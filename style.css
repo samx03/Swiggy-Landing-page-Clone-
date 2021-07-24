@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.width{
+    width: 80%;
+    margin: auto;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    height: 540px;
+}
+.intro{
+    width: 55%;
+    padding-top: 4%;
+    /* text-align: center; */
+    /* background-color: pink; */
+}
+.intro .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnContainer{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 17px;
+}
+.LogInBtn{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 15px;
+    margin-right: 2%;
+    font-weight: 600;
+}
+.LogInBtn:hover{
+    color: #fc8019;
+}
+.SignUpBtn{
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+}
+.SignUpBtn:hover{
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+.container{
+    margin-top: 5%;
+}
+.text-animation{
+    font-size: 40px;
+    font-weight: 700;
+}
+.container p:nth-child(2){
+    margin-top: 2%;
+    font-size: 25px;
+    color: #686b78;
+}
+
+.input-container{
+    margin-top: 5%;
+    position: relative;
+}
+.input-container input[type = "text"]{
+    width: 90%;
+    height: 58px;
+    padding: 0px 12px;
+    border-radius: 0px;
+    border: 1px solid #686b78;
+    caret-color: #fc8019;
+    font-size: 18px;
+    font-weight: 600;
+}
+.input-container input[type = "text"]::placeholder{
+    font-size: 18px;
+    font-weight: 500;
+    color: #686b78;
+}
+.input-container input[type = "text"]:focus{
+    outline-color: #fc8019;
+}
+.input-container .locateBtn{
+    position: absolute;
+    top: 12px;
+    right: 20%;
+    padding: 10px 8px;
+    font-weight: 600;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.input-container .locateBtn:hover{
+    background-color: #e5e5e5;
+}
+.input-container .locateBtn .fa{
+    font-size: 15px;
+    margin-right: 5px;
+}
+.input-container .foodBtn{
+    position: absolute;
+    top: 0px;
+    right: 0%;
+    padding: 0 15px;
+    height: 100%;
+    color: #fff;
+    font-weight: 800;
+    font-size: 15px;
+    background-color: #fc8019;
+    border: none;
+    cursor: pointer;
+}
+.cities{
+    margin-top: 5%;
+}
+.cities p:first-child{
+    color: #686b78;
+    font-size: 15px;
+    font-weight: 700;
+}
+.cities .city-names{
+    /* background-color: yellow; */
+    padding: 10px 0px;
+    color: #686b78;
+    font-weight: 600;
+}
+.alternate{
+    color: #93959f;
+}
+.cities .city-names li{
+    display: inline-block;
+    margin-right: 2%;
+    cursor: pointer;
+}
+.img{
+    width: 45%;
+    /* background-color: yellow; */
+    background-image: url(./images/Lunch.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.features{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background: #2b1e16;
+    color: #fff;
+    padding: 0 0%;
+    /* overflow: hidden; */
+}
+.item{
+    width: 25%;
+}
+.item .image{
+    height: 250px;
+}
+.item .image img{
+    width: 30%;
+    height: 220px;
+}
+.item .text-content{
+    margin-bottom: 42px;
+}
+.item .text-content h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.item .text-content p{
+    color: #e0cbc1;
+    font-weight: 100;
+}
+
+.downloads{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.text-container{
+    width: 30%;
+    padding: 10% 0;
+    /* background: rebeccapurple; */
+}
+.text-container .heading h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.text-container .heading p{
+    font-size: 20px;
+    margin-bottom: 70px;
+    color: #7e808c;
+}
+.text-container .links a{
+    text-decoration: none;
+}
+.text-container .links img{
+    width: 200px;
+}
+.downloads .phone-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: red;
+}
+.phone-img .phone1{
+    position: absolute;
+    top: 0;
+    right: 400px;
+    width: 350px;
+}
+.phone-img .phone2{
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    width: 350px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 5% 0;
+    background: #000;
+    color: #fff;
+}
+.foot-container h4{
+    color: #808080;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.foot-container ul{
+    list-style: none;
+}
+.foot-container ul li{
+    font-size: 17px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: all 0.1s linear;
+    font-weight: 100;
+}
+.foot-container .download-link img{
+    display: block;
+    margin-bottom: 17px;
+    width: 200px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
